@@ -7,3 +7,5 @@ In this repo I just playing with angular 6 and material design as well
 
 `ng add @angular/material`
 
+## If you want to change your current style ext to scss you can run:
+`ng config schematics.@schematics/angular:component.styleext scss`
