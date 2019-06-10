@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import {MaterialModule} from '../libs/material/material.module';
 import { FormsModule } from '@angular/forms';
-import { FlexLayoutModule} from '@angular/flex-layout';
+// import { FlexLayoutModule} from '@angular/flex-layout';
 import { Routes, RouterModule } from '@angular/router';
 
 import { ContactManagerAppComponent } from './contact-manager-app.component';
@@ -19,7 +19,7 @@ const routes: Routes = [
 const modules = [
   MaterialModule,
   FormsModule,
-  FlexLayoutModule,
+  // FlexLayoutModule,
   CommonModule,
   RouterModule.forChild(routes),
 ];
